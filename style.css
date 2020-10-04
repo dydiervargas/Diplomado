@@ -1,18 +1,24 @@
 
 
  body 
- { 
-        background-color: white;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 5px;
-        margin-bottom: 10px;
+ {     
        
+       background-image: url(media/fondo.jpg) ;
+       position: 0;
+       
+
+        /*background-color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 4px;
+        margin-bottom: 5px;*/
+        
  }
-.banner {    
+.banner {    <meta name="viewport" content="width=800px, initial-scale=1">
+                                              /* banner de electronica*/
        width: 800px;
-       height: 400px;
-       border: 3px solid rgb(100, 13, 240);
+       height: 500px;
+       border: 0px solid rgb(100, 13, 240);
        margin: auto;
        animation: banner 20s infinite;
        linear alternate;
@@ -20,55 +26,74 @@
        border-radius: 10px;
 }
 @keyframes banner {
-       0%,  30% {
+       0%,  20% {
                      background-image:
                      url(media/mantenimiento1.jpg); }
 
-       35%,  70% {
+       25%,  45% {
                      background-image:
                      url(media/mantenimiento2.jpg); }
 
-       75%,  100% {       
+       50%,  65% {       
                      background-image:
-                     url(media/mantenimiento3.jpg);
+                     url(media/mantenimiento3.jpg); }
+                     
+       75%,  85% {       
+                     background-image:
+                     url(media/electronica.jpg); }
 
-       }
+       90%,  100% {       
+                     background-image:
+                     url(media/electrónica1.jpg);
+       }   
 }      
 
-p {
-       border: rgb(110, 108, 108) 2px solid;
-       margin: 30px;
-       }
+p {                                                 /* cajas de bordes de los textos*/
+       border: rgb(255, 255, 255) 0px solid;
+       margin: 20px;
+       
+            /*  letter-spacing: 0.10em;
+              word-spacing: 0.10em;
+       
+            
+            input {
+              letter-spacing: 0.1em;*/
+            }
+       
 
 
- .navbar {  margin: 30px;
-            color: rgb(44, 63, 44);
+ .navbar {  margin: 2px;                           /*fondo de botones*/
+            color: rgb(44, 63, 44, 0.6);
             text-decoration: none;
             background: #a3a7b1;
-            padding: 2px  10px;
+            padding: 1px  2px;
             display: inline-block;
-            border-radius: 50px;
+            border-radius: 8px;
+            position: fixed;
+            opacity: .8;
        }
 
-.card-footer {
+.card-footer {                                          /*pie de pagina*/
             background-color: rgb(51, 43, 43);
-            margin: 30px;
+            margin: 15px;
        }
-.banner1 {    ;
-              width: 400px;
-              height: 200px;
-              border: 3px solid rgb(100, 13, 240);
+.banner1 {   <meta name="viewport" content="width=800px, initial-scale=1">
+       
+                                                  /* banner de programacion*/
+              width: 800px;
+              height: 500px;
+              border: 0px solid rgb(100, 13, 240);
               margin: auto;
               animation: banner1 30s infinite;
               linear alternate;
               background-size: 100% 100%;
-              border-radius: 10px;
+              border-radius: 8px;
        }
 @keyframes banner1 {
               0%,  10% {
                             background-image:
-                            url(media/python-logo.jpg); }
-       
+                            url(media/python-logo.jpg);}
+
               15%,  25% {
                             background-image:
                             url(media/php-logo.png); }
@@ -93,3 +118,128 @@ p {
                             background-image:
                             url(media/html-css.jpg);}
        }      
+
+.banner2 { <meta name="viewport" content="width=800px", initial-scale=1">    
+                                                      /* banner de mantenimiento*/
+              width: 800px;
+              height: 500px;
+              border: 0px solid rgb(100, 13, 240);
+              margin: auto;
+              animation: banner2 30s infinite;
+              linear alternate;
+              background-size: 100% 100%;
+              border-radius: 10px;
+       }
+@keyframes banner2 {                                          
+              0%,  25% {
+                            background-image:
+                            url(media/reparacion1.jpg); }
+       
+              30%,  55% {
+                            background-image:
+                            url(media/reparacion2.jpg); }
+       
+              60%,  75% {       
+                            background-image:
+                            url(media/reparacion3.jpg); }
+
+              80%,  100% {       
+                            background-image:
+                            url(media/redes-informaticas.jpg);}
+
+            
+       }
+.banner3 {       <meta name="viewport" content="width=800px", initial-scale=1">
+                                                   /* banner de index*/
+              width: 800px;
+              height: 500px;
+              border: 0px solid rgb(100, 13, 240);
+              margin: auto;
+              animation: banner3 30s infinite;
+              linear alternate;
+              background-size: 100% 100%;
+              border-radius: 10px;
+       }
+@keyframes banner3 {
+              0%,  25% {
+                            background-image:
+                            url(media/media.png); }
+       
+              30%,  55% {
+                            background-image:
+                            url(media/valores.png); }
+       
+              60%,  75% {       
+                            background-image:
+                            url(media/vision.png); }
+
+              80%,  100% {       
+                            background-image:
+                            url(media/MV.png);}
+
+            
+ }
+
+ .banner5 {           
+       /* banner pequeño de mantenimiento*/
+width: 250px;
+height: 150px;
+border: 0px solid rgb(100, 13, 240);
+margin: auto;
+animation: banner5 30s infinite;
+linear alternate;
+background-size: 100% 100%;
+border-radius: 10px;
+}
+@keyframes banner5 {
+0%,  15% {
+background-image:
+url(media/bannermantenimiento/intell.jpg); }
+
+20%,  40% {
+background-image:
+url(media/bannermantenimiento/intelvamd.jpg); }
+
+45%,  65% {       
+background-image:
+url(media/bannermantenimiento/223612-amd-ryzen.jpg); }
+
+70%,  85% {       
+background-image:
+url(media/bannermantenimiento/board1.jpg);}
+
+90%,  100% {       
+background-image:
+url(media/bannermantenimiento/board-intel.jpg);}
+       
+
+
+}
+ .banner4  {       <meta name="viewport" content="width=800px", initial-scale=1">
+       /* banner de diseño web*/
+width: 800px;
+height: 500px;
+border: 0px solid rgb(100, 13, 240);
+margin: auto;
+animation: banner4 30s infinite;
+linear alternate;
+background-size: 100% 100%;
+border-radius: 10px;
+}
+@keyframes banner4 {
+0%,  25% {
+background-image:
+url(media/diseno-web1.png); }
+
+30%,  55% {
+background-image:
+url(media/diseno-web2.jpg); }
+
+60%,  75% {       
+background-image:
+url(media/diseñoweb3.jpg); }
+
+80%,  100% {       
+background-image:
+url(media/diseñoweb4.jpg);}
+}
